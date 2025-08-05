@@ -25,7 +25,7 @@ The GitHub Actions MCP Server provides tools to help AI assistants interact with
 Currently, this package is only available for installation from source:
 
 ```bash
-git clone https://github.com/awslabs/sample-github-actions-mcp-server.git
+git clone https://github.com/aws-samples/sample-github-actions-mcp-server.git
 cd sample-github-actions-mcp-server
 pip install -e .
 ```
