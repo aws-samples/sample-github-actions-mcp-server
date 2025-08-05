@@ -16,6 +16,8 @@ license-files = ["LICENSE", "NOTICE"]
 authors = [
     {name = "Amazon Web Services"},
     {name = "AWSLabs MCP", email="203918161+awslabs-mcp@users.noreply.github.com"},
+    {name = "Anuradha"},
+    {name = "Vamsi"},
 ]
 classifiers = [
     "License :: OSI Approved :: Apache Software License",
@@ -29,9 +31,9 @@ classifiers = [
 ]
 
 [project.urls]
-homepage = "https://github.com/awslabs/sample-github-actions-mcp-server"
-repository = "https://github.com/awslabs/sample-github-actions-mcp-server.git"
-changelog = "https://github.com/awslabs/sample-github-actions-mcp-server/blob/main/CHANGELOG.md"
+homepage = "https://github.com/aws-samples/sample-github-actions-mcp-server"
+repository = "https://github.com/aws-samples/sample-github-actions-mcp-server.git"
+changelog = "https://github.com/aws-samples/sample-github-actions-mcp-server/blob/main/CHANGELOG.md"
 
 [project.scripts]
 "awslabs.github-actions-mcp-server" = "awslabs.github_actions_mcp_server.server:main"

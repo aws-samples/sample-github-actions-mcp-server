@@ -94,7 +94,7 @@ This MCP server requires a GitHub Personal Access Token to interact with GitHub 
 
 ```bash
 # Clone the repository
-git clone https://github.com/awslabs/sample-github-actions-mcp-server.git
+git clone https://github.com/aws-samples/sample-github-actions-mcp-server.git
 cd sample-github-actions-mcp-server
 
 # Create and activate virtual environment
