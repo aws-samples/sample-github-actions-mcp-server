@@ -20,19 +20,17 @@ The GitHub Actions MCP Server provides tools to help AI assistants interact with
 - GitHub Personal Access Token with appropriate permissions
 - MCP-compatible client (Amazon Q Developer CLI, Cursor, Cline, etc.)
 
-### Install with uv
-
-```bash
-uv pip install awslabs.github-actions-mcp-server
-```
-
 ### Install from source
 
+Currently, this package is only available for installation from source:
+
 ```bash
-git clone https://github.com/awslabs/mcp.git
-cd mcp/src/github-actions-mcp-server
+git clone https://github.com/awslabs/sample-github-actions-mcp-server.git
+cd sample-github-actions-mcp-server
 pip install -e .
 ```
+
+> **Note**: This package is not yet published to PyPI. Installation from PyPI will be available in future releases.
 
 ## Configuration
 
@@ -96,8 +94,8 @@ This MCP server requires a GitHub Personal Access Token to interact with GitHub 
 
 ```bash
 # Clone the repository
-git clone https://github.com/awslabs/mcp.git
-cd mcp/src/github-actions-mcp-server
+git clone https://github.com/awslabs/sample-github-actions-mcp-server.git
+cd sample-github-actions-mcp-server
 
 # Create and activate virtual environment
 python -m venv .venv
@@ -119,4 +117,4 @@ This project is licensed under the Apache-2.0 License.
 
 ## Contributing
 
-See [CONTRIBUTING.md](../../CONTRIBUTING.md) for details on how to contribute to this project.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
