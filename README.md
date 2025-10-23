@@ -47,7 +47,7 @@ Add the following to your MCP client configuration file:
   "mcpServers": {
     "awslabs.github-actions-mcp-server": {
       "command": "uvx",
-      "args": ["awslabs.github-actions-mcp-server@latest"],
+      "args": ["your-github-repo"],
       "env": {
         "GITHUB_TOKEN": "your-github-token",
         "FASTMCP_LOG_LEVEL": "ERROR"
